@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Hazard Buster | Geomatics Lab</title>
+<meta name="description" content="Hazard Buster is a geomatics lab mapping floods, landslides, earthquakes and other natural hazards with GIS, remote sensing and UAV surveys.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@62..125,500..900&family=Source+Serif+4:opsz,wght@8..60,400;8..60,600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="hero" id="top">
+  <svg class="contours" id="contours" viewBox="0 0 1200 640" preserveAspectRatio="xMidYMid slice" aria-hidden="true">
+    <g id="lines" fill="none" stroke="#5f8aa3" stroke-opacity=".38" stroke-width="1.2"></g>
+    <circle class="ring" cx="900" cy="330" r="10"/>
+    <circle class="pin" cx="900" cy="330" r="9"/>
+  </svg>
+  <div class="wrap">
+    <header class="top">
+      <a class="logo" href="#top">HAZARD<span>BUSTER</span></a>
+      <nav aria-label="Main">
+        <a href="#about">About</a><a href="#research">Research</a><a href="#tools">Tools</a><a href="#team">Team</a><a href="#contact">Contact</a>
+      </nav>
+    </header>
+    <h1>Map the risk before it moves.</h1>
+    <p>Hazard Buster is a geomatics lab. We turn satellite images, drone surveys and GIS data into hazard maps that communities and planners can act on.</p>
+    <div class="btns"><a class="btn" href="#research">See our research</a><a class="btn alt" href="#contact">Work with us</a></div>
+  </div>
+</div>
+
+<main>
+<section id="about"><div class="wrap about">
+  <div>
+    <h2>Geospatial science for safer land use</h2>
+    <p>Floods, landslides and earthquakes follow the shape of the land. We measure that shape, model how hazards behave on it, and publish maps that show who and what is exposed.</p>
+    <p>Our work supports local governments, researchers and students who need reliable hazard data for planning and early warning.</p>
+  </div>
+  <dl class="facts">
+    <dt>Focus</dt><dd>Natural hazard mapping and risk assessment</dd>
+    <dt>Methods</dt><dd>GIS, remote sensing, UAV photogrammetry, GNSS</dd>
+    <dt>Output</dt><dd>Open maps, datasets and technical reports</dd>
+  </dl>
+</div></section>
+
+<section id="research" style="padding-top:0"><div class="wrap">
+  <h2>Research areas</h2>
+  <div class="legend">
+    <article><h3><i class="sw" style="background:#2f7fb5"></i>Flood mapping</h3><p>Inundation modelling from terrain data and radar imagery, with flood extent maps after major events.</p></article>
+    <article><h3><i class="sw" style="background:var(--fault)"></i>Landslide susceptibility</h3><p>Slope, rainfall and land-cover analysis to rank hillsides by likelihood of failure.</p></article>
+    <article><h3><i class="sw" style="background:var(--amber)"></i>Earthquake and ground motion</h3><p>GNSS monitoring of crustal movement and seismic exposure maps for buildings and roads.</p></article>
+    <article><h3><i class="sw" style="background:var(--moss)"></i>Change detection</h3><p>Time-series satellite analysis to track glaciers, riverbanks, forest loss and burn scars.</p></article>
+  </div>
+</div></section>
+
+<section class="tools" id="tools"><div class="wrap">
+  <h2>What we work with</h2>
+  <ul>
+    <li><strong>GIS</strong>QGIS and ArcGIS for spatial analysis and cartography</li>
+    <li><strong>Remote sensing</strong>Sentinel, Landsat and SAR imagery</li>
+    <li><strong>UAV surveys</strong>Drone photogrammetry and orthomosaics</li>
+    <li><strong>GNSS</strong>Precise positioning and deformation monitoring</li>
+    <li><strong>Data science</strong>Python, R and machine learning for hazard models</li>
+  </ul>
+</div></section>
+
+<section id="team"><div class="wrap">
+  <h2>Team</h2>
+  <div class="team">
+    <div><b>Lab Director</b><span>Name, title and research interests</span></div>
+    <div><b>Researcher</b><span>Name, title and research interests</span></div>
+    <div><b>PhD student</b><span>Name, title and research interests</span></div>
+    <div><b>Field technician</b><span>Name, title and research interests</span></div>
+  </div>
+</div></section>
+
+<section class="contact" id="contact"><div class="wrap">
+  <h2>Contact</h2>
+  <p>Email <a href="mailto:hello@example.com">hello@example.com</a> to propose a project, request data, or ask about joining the lab.</p>
+  <p style="margin-top:.5rem">Department of Geomatics, Your University, City, Country</p>
+</div></section>
+</main>
+
+<footer>&copy; 2026 Hazard Buster Geomatics Lab</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
