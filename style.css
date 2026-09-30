@@ -42,7 +42,7 @@ h2{font-family:var(--head);font-weight:800;font-stretch:112%;font-size:clamp(1.8
 .tools ul{list-style:none;padding:0;display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:1.5rem 2rem}
 .tools li strong{font-family:var(--head);display:block}
 .tools li{font-size:1rem}
-.team{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:1.5rem}
+.team{display:grid;grid-template-columns:repeat(3,1fr);gap:1.5rem}
 .team div{padding-top:1rem;border-top:2px solid var(--moss)}
 .team b{font-family:var(--head);font-weight:700;display:block}
 .team span{font-size:1rem}
