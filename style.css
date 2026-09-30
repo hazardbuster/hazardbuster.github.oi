@@ -52,3 +52,5 @@ footer{padding:1.5rem 0;font-size:.95rem;text-align:center}
 @media (max-width:700px){.about{grid-template-columns:1fr}nav a{margin:0 1rem 0 0}.hero .wrap{padding-top:4rem;padding-bottom:4.5rem}}
 .grp{font-family:var(--head);font-weight:800;font-size:1.2rem;color:var(--moss);margin:2.5rem 0 1rem}
 .grp:first-of-type{margin-top:0}
+@media (max-width:900px){.team{grid-template-columns:repeat(2,1fr)}}
+@media (max-width:700px){.team{grid-template-columns:1fr}}
